@@ -1,0 +1,261 @@
+@font-face {
+    font-family:"Figtree";
+    src: url(../font/Figtree/Figtree-VariableFont_wght.ttf) format(truetype);
+    font-weight: 400px;
+    font-style:normal;
+}
+
+@font-face {
+    font-family:"FigtreeItalic";
+    src: url(../font/Figtree/Figtree-Italic-VariableFont_wght.ttf) format(truetype);
+    font-weight: 400px;
+    font-style:italic;
+}
+
+a, h1, h2, h3, label, th{
+    font-family: "Figtree";
+    font-size: larger;
+    color: antiquewhite;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p{
+    font-family: "FigtreeItalic";
+    color: antiquewhite;
+}
+
+.footerdireitos{
+    font-family: "FigtreeItalic";
+    color: grey;
+}
+
+.h1titulo{
+    font-size: 400px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.ptitulo{
+    font-size: xx-large;
+}
+
+/*----------- Fonts ------------*/
+
+/* adiciona efeitos aos links e retira a linha */
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  text-decoration: underline;
+}
+/*---------------------------------*/
+
+img{
+    max-width: 100%;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    /* elimina a margem gerada default pelo container body */
+}
+
+main{
+    width: auto;
+    background-image: url(../images/Main.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+/*--------- Common Atributes ----------*/
+
+header{
+    width: auto;
+    background-image: url(../images/Header.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    
+    /* Mantêm o container na posição original durante scroll da página */
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar{
+    text-align: right;
+}
+
+.logo{
+    width: 33%;
+    float: left;
+    padding: 10px;
+}
+
+nav{
+    width: 33%;
+    float: right;
+    
+}
+
+/*---------- Header ------------*/
+
+.headerli, .footercontactos{
+    display: inline; /* coloca os elementos da lista em linha */
+    padding: 10px;
+}
+
+#aboutUsTextID{
+    width:50%;
+    float: left;
+    clear: both;
+
+}
+
+#aboutUsImgID{
+    width: 50%;
+    float: left;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.aboutUsImg{
+    width: 30%;
+}
+
+.maindiv, .maintable {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+#imagecard1{
+    max-width: 70%;
+}
+
+.aboutUsTitulo {
+    font-size: 70px;
+    padding: 10px;
+}
+
+.aboutUsTexto {
+    font-size: 24px;
+    padding: 10px;
+}
+
+
+/*---------Página Sobre Nós--------------*/
+
+table, tr, th, td {
+border: 3px solid rgb(42, 42, 42);
+text-align: center;
+border-collapse: collapse; /*serve para que não se repitam linhas no desenho da tabela */
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    background-color: rgba(53, 183, 219, 0.395);
+}
+
+td {
+    background-color: #403f4574;
+}
+
+table{
+    margin: 20px;
+}
+
+.logoIcon {
+    width: 30%;
+}
+
+/*--------Página Tabela de Serviços-------*/
+
+.maincontactos{
+    display: flex;
+    justify-content: center;
+}
+
+.mainformdiv{
+    width: 50%;
+    padding: 10px;
+}
+
+#mainformdivid{
+    width: 50%;
+    float: left;
+    clear: both;
+}
+
+#maincontactosdivid{
+    width: 50%;
+    float: left;
+}
+/*------------Página Contactos---------*/
+
+footer{
+    background-color: #403F45;
+    overflow: hidden;
+}
+.footerli, .contactosli{
+    display: block; /*tira os pontos da lista */
+}
+
+.footerdiv, .footerdireitos, .navbar{
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    /* alinha os elementos no centro do container */
+}
+
+.pfooter{
+    width: 33%;
+    text-align:left;
+    padding-right: 10px;
+}
+
+#footerdiv1{
+    width:33%;
+    float: left;
+    clear: both;
+    /* background-color: aquamarine; */
+    
+}
+
+#footerdiv2, #footerdiv3{
+    width:33%;
+    float:left;
+    /* background-color: crimson; */
+}
+
+.footerdireitos{
+    width:50%
+}
+
+.footercontactos{
+    padding-top: 0px;
+}
+
+.footerli{
+    padding: 5px;
+}
+
+#icon1, #icon2, #icon3 {
+    width: 10%;
+    padding: 10px;
+    float: left;
+}
