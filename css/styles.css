@@ -12,6 +12,8 @@
     font-style:italic;
 }
 
+/*----------- media query-------------*/
+
 a, h1, h2, h3, label, th{
     font-family: "Figtree";
     font-size: larger;
